@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Fang report</title>
+	</head>
+	<body>
+		<form action="../PHPfiles/testfile.php" method="post">
+			<label for="fangspotted">láttad az kutyámat fangot ? </label>
+				YES <input id="fangspotted" name="fangspotted" type ="radio" value="yes" />
+				NO <input id="fangspotted" name ="fangspotted" type="radio" value="no" /><br />
+			<img src="fang.jpg" width="500" height="500"
+				alt="Az elrabolt kutyám , Fang." /><br />
+			<label for="other">Bármi más amit meg akarsz velem osztani ?</label>
+			<textarea id="other" name="other" ></textarea><br />
+			<input type="submit" value="Jelentés küldése" name="submit" />
+		</form>
+	</body>
+</html>
